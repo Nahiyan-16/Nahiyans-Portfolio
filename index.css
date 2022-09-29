@@ -5,16 +5,33 @@ body{
 }
 
 .main{
-    background-color: #d2f0f4;
+    background-image: url(images/pixel1.png);
     width: 100%;
     height: 97.5vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
-    color: #380c68;
+    color: #e1e4d5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
+ /*
+ <============= SCROLL BAR ===============>
+ */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+::-webkit-scrollbar-track {
+    background: #24103a;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgb(71, 8, 165); 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(71, 8, 165); 
+  }
  /*
  <============= HEADER ===============>
  */
@@ -37,9 +54,8 @@ body{
 .header_container{
     border-radius: 10px;
     position: fixed;
-    width: 700px;
-    border: 2px solid #24103a;
-    background-color: #b9d0dd;
+    width: 85%;
+    background-color: transparent;
 }
 
 .logo{
@@ -81,6 +97,11 @@ a:hover{
     list-style-type: none;
 }
 
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
 .nav_item:hover{
     text-decoration-line: underline;
 }
@@ -90,11 +111,15 @@ a:hover{
  */
 
  .main_container{
-    margin-top: 20px;
-    height: 75vh;
- }
+    height: 94.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
 
  .main_desc{
+    margin-top: 80px;
     margin-left: 0px;
     flex-direction: column;
     width: 600px;
@@ -106,7 +131,7 @@ a:hover{
 .main_body_text{
     text-align: left;
     padding: 0;
-    margin: 30px 30px 0 80px;
+    margin: 50px 30px 0 80px;
     line-height: 0;
     font-family: inherit;
 }
@@ -116,6 +141,10 @@ a:hover{
     font-weight: 800;
  }
 
+#name{
+    color: rgb(84, 127, 196);
+}
+
  .main_body_subtext{
     margin-top: 0;
  }
@@ -124,10 +153,45 @@ a:hover{
     font-size: 20px;
  }
 
- #main_body_text_two{
-
- }
-
  #main_body_text_three{
     font-size: 30px;
+ }
+
+.personal_links{
+    margin: 50px 30px 0 80px;
+    display: flex;
+    width: 100px;
+}
+
+ .personal_links_logo{
+    margin-right: 10px;
+    width: 25px;
+ }
+
+ .main_bg_credit{
+    margin: 90px 0 0 auto;
+    height: 50px;
+    width: 250px;
+ }
+
+ .credit{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 300;
+ }
+ 
+ /*
+ <============= PAGE 2 ===============>
+ */
+
+ #myWork{
+    background-image: url(images/pixel2.webp);
+ }
+
+  /*
+ <============= PAGE 3 ===============>
+ */
+
+ #aboutMe{
+    background-image: url(images/pixel3.jpg);
  }

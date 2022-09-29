@@ -123,7 +123,7 @@ a{
 }
 
  .main_desc{
-    margin-left: 30px;
+    margin-left: 6.5%;
     flex-direction: column;
     max-width: 600px;
     min-height: 500px;
@@ -177,7 +177,7 @@ a{
  */
 
  #myWork{
-    background-image: url(images/pixel2.webp);
+    background-image: url(images/pixel2.jpg);
  }
 
   /*
@@ -193,5 +193,5 @@ a{
  */
 
  #contactMe{
-    background-image: url(images/pixel4.jpg);
+    background-image: url(images/pixel4.gif);
  }

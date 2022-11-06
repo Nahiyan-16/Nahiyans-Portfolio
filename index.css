@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
   }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 10px 20px;
     font-family: 'Doris', sans-serif;
@@ -73,10 +77,11 @@ body{
 #logo_img{
     width: 50px;
     border-radius: 50%;
+    transition: transform 250ms;
 }
 
 #logo_img:hover{
-    border: 1px solid #5f2e93;
+    transform: scale(1.05);
 }
 
 a:hover{
@@ -99,6 +104,7 @@ a:hover{
     font-size: 20px;
     font-weight: lighter;
     list-style-type: none;
+    transition: transform 250ms;
 }
 
 a{
@@ -107,6 +113,7 @@ a{
 }
 
 .nav_item:hover{
+    transform: scale(1.05);
     text-decoration-line: underline;
 }
 
@@ -187,6 +194,40 @@ a{
  #aboutMe{
     background-image: url(images/pixel3.jpg);
  }
+
+ .aboutMeContainer{
+    width: 80%;
+    margin: 80px auto 0 auto;
+    height: 70vh;
+    text-align: center;
+    padding: 50px;
+ }
+
+ .aboutMeName{
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+ }
+
+ .aboutMeBody{
+    height: 40vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid red;
+ }
+ 
+.aboutMePara{
+    border: 1px solid red;
+    height: 20vh;
+    width: 60vh;
+}
+
+.aboutMeDetails{
+    border: 1px solid red;
+    height: 20vh;
+    text-align: center;
+    width: 20vh;
+}
 
    /*
  <============= PAGE 3 ===============>

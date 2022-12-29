@@ -199,34 +199,40 @@ a{
     width: 80%;
     margin: 80px auto 0 auto;
     height: 70vh;
-    text-align: center;
     padding: 50px;
  }
 
  .aboutMeName{
     font-size: 50px;
     text-shadow: 5px 5px 5px black;
+    text-align: center;
  }
 
  .aboutMeBody{
-    height: 40vh;
+    height: 100%;
     display: flex;
     justify-content:center;
-    align-items: center;
-    border: 1px solid red;
+    align-items: flex-start;
  }
  
 .aboutMePara{
-    border: 1px solid red;
-    height: 20vh;
+    height: 100%;
     width: 60vh;
 }
 
+.aboutMePara ul{
+    list-style: none;
+}
+
+.aboutMeBody li{
+    margin-bottom: 1em;
+}
+
 .aboutMeDetails{
-    border: 1px solid red;
-    height: 20vh;
+    margin-top: 1em;
+    height: 100%;
+    width: 30vh;
     text-align: center;
-    width: 20vh;
 }
 
    /*

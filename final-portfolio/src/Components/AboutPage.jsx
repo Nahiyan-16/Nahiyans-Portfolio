@@ -5,13 +5,11 @@ export default function AboutPage(){
         <div className="aboutPageContainer" id="about">
             <p className="aboutTitle">About me</p>
             <div className="descriptionContainer">
-                <p>I am a Junior Web Developer with experience in React, JavaScript, Java and C++. I have recently graduated from Queens College.
-                        I have experience in building web applications using modern front-end frameworks, and I am familiar with the basics of web development and the software development life cycle.
-                        I am proficient in JavaScript and have experience working with React, and I am able to write clear, clean, and maintainable code. 
-                        I am also familiar with core concepts of web development such as HTML, CSS, and web accessibility. 
-                        I am also experienced in Java and C++ which gives me a strong understanding of object-oriented programming concepts. 
-                        I am a quick learner, adapt well to new technologies, and enjoy working in a team-oriented environment. 
-                        I am excited to continue building my skills and work on challenging projects as a Junior Web Developer.
+                <p>My name is Nahiyan, I am a recent graduate of Queens College with a degree in computer science. I am a skilled web developer with experience in several programming languages, including JavaScript, Java, C++, and ReactJS.
+Throughout my time in college, I was able to work on several projects, both individually and in a team setting, which helped me to gain hands-on experience and develop a strong understanding of web development.
+I have a good understanding of front-end development and have a good grasp of JavaScript and ReactJS. I also have experience working with backend development and I have a good understanding of Java and C++.
+I am now seeking employment opportunities as a web developer to utilize my knowledge and skills to contribute to the growth and success of a company. I am excited to continue learning and growing as a developer in the field. I am open to learning new technologies and programming languages to stay current with the fast-paced industry. I am a quick learner and I am always eager to take on new challenges. 
+I am confident that with my skills, I will be able to make meaningful contributions to any team that I will be a part of.
                 </p>
             </div>
         </div>

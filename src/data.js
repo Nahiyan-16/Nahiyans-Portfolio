@@ -16,7 +16,7 @@ export default {
     backgroundColor: "white",
   },
   project2: {
-    title: "Gen Converter",
+    title: "nAnalysisConverter",
     description: [
       "Developed a standalone C++ and MFC application independently within an efficient 3-week timeframe. Utilized SQLite3 for robust database management and conducted comprehensive edge case testing to maintain high quality.",
       "Innovated the parameter group updating process in nSpec, enabling mass updates of parameters and their dependencies, enhancing time efficiency by 60 percent.",
